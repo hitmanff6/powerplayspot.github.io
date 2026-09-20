@@ -1,73 +1,157 @@
-# Welcome to your Lovable project
+# Fitness Forge
 
-## Project info
+Role:
+Act as a senior front-end web developer and UI/UX designer with 10+ years of experience, specializing in fitness and gym websites.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Task:
+Create a modern, professional, mobile-responsive gym website using HTML, CSS, and JavaScript.
 
-## How can I edit this code?
+Website Structure Requirements:
+The website must contain the following sections, and each section must redirect to its own dedicated page:
 
-There are several ways of editing your application.
+Home / Hero Section (index.html)
 
-**Use Lovable**
+About Us (about.html)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Services (services.html)
 
-Changes made via Lovable will be committed automatically to this repo.
+Contact (contact.html)
 
-**Use your preferred IDE**
+🔹 HERO SECTION (HOME PAGE)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Full-screen hero layout
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Strong headline (e.g., “Transform Your Body, Transform Your Life”)
 
-Follow these steps:
+Short motivational sub-headline
+
+Primary CTA button: “Join Now” (redirects to Contact page)
+
+Secondary CTA button: “Our Programs” (redirects to Services page)
+
+Background image related to gym / fitness / strength training
+
+Add subtle animation (fade-in / slide-up)
+
+Recommended Hero Images:
+
+Muscular athlete lifting weights
+
+Modern gym interior
+
+Personal trainer coaching client
+
+🔹 ABOUT PAGE
+
+Section title: “Who We Are”
+
+Professional gym story (years of experience, mission, trainers)
+
+Bullet points for values (discipline, strength, results)
+
+Image of trainers or gym environment
+
+Layout: image + text (responsive)
+
+Recommended Images:
+
+Certified trainers
+
+Gym team photo
+
+Fitness coaching session
+
+🔹 SERVICES PAGE
+
+Display services in cards or grid layout, each with:
+
+Icon or image
+
+Service name
+
+Short description
+
+Services to include:
+
+Strength Training
+
+Bodybuilding
+
+Weight Loss Programs
+
+Personal Training
+
+CrossFit / Functional Training
+
+Nutrition Guidance
+
+Recommended Images:
+
+Dumbbells & barbells
+
+Cardio machines
+
+Personal training sessions
+
+🔹 CONTACT PAGE
+
+Fully functional contact form with:
+
+Name
+
+Email
+
+Phone
+
+Message
+
+Submit button with hover animation
+
+Google map placeholder (gym location)
+
+Gym contact info (email, phone, address)
+
+🔹 NAVIGATION & UX
+
+Sticky navigation bar
+
+Smooth scrolling
+
+Active link highlight
+
+Mobile hamburger menu
+
+All navigation links must redirect to separate pages
+
+🔹 RESPONSIVENESS & DESIGN
+
+Fully mobile-responsive (mobile, tablet, desktop)
+
+Use Flexbox or CSS Grid
+
+Modern color palette (black, dark gray, red accent)
+
+Clean typography (Google Fonts)
+
+Fast loading and optimized images
+
+This project was built with [Lovable](https://lovable.dev).
+
+## Build with Lovable
+
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/87332be3-510e-424c-9311-2fe5efee6ec0).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+git clone <this-repository-url>
+cd <repository-name>
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
